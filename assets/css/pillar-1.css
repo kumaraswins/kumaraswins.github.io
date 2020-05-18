@@ -13,7 +13,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8550,17 +8550,18 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header {
-  background: #434E5E;
+  /* background: #434E5E; */
+  background: #1a4042;
   color: rgba(255, 255, 255, 0.9);
-  height: 220px;
+  height: 187px;
 }
 
 .resume-header .picture {
-  width: 258px;
+  width: 220px;
 }
 
 .resume-header .name {
-  font-size: 2.25rem;
+  font-size: 1.8rem;
   letter-spacing: 0.175rem;
   font-weight: 900;
 }
